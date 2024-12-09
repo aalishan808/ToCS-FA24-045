@@ -7,7 +7,7 @@ pipeline {
                 // Clone or pull the latest code from the repository
                 git branch: 'main', // Replace 'main' with your branch name
                     credentialsId: 'your-credentials-id', // Jenkins credentials ID
-                    url: 'git@github.com:your-username/your-repo.git'
+                    url: 'git@github.com:aalishan808/ToCS-FA24-045.git'
             }
         }
         stage('Build and Sync') {
